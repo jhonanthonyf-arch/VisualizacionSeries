@@ -1,5 +1,5 @@
 import streamlit as st
-st.title("Graficas de series de tiempo")
+st.title("Evolución de ventas")
 
 entrada=st.text_input("Ingrese los datos separados por coma:",value="18,15,18,26,31")
 entrada2=entrada.split(",")
